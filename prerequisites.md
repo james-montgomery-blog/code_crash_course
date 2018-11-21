@@ -26,10 +26,10 @@ javac # compile
 java # run
 
 gcc # compile
-run # run
+./a.out # run
 
 g++ # compile
-run # run
+./a.out # run
 
 python # run
 
