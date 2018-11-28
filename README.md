@@ -25,28 +25,28 @@ I typically develop on Mac OS or on Linux (Redhat/Ubuntu). These installation gu
 
 We'll start by installing homebrew, a very useful package manager.
 
-'''
+```
 mkdir homebrew && curl -L https://github.com/Homebrew/brew/tarball/master | tar xz --strip 1 -C homebrew
-'''
+```
 
 Next we'll install scala and java as well as their respective package managers.
 
-'''
+```
 brew install scala
 brew install sbt
 
 brew install java
 brew install maven
-'''
+```
 
 I recommend working with scala and java using the Jetbrains intellij IDE: [Download Here](https://www.jetbrains.com/idea/).
 
 We can now install R.
 
-'''
+```
 brew install r
 brew install Caskroom/cask/xquartz
-'''
+```
 
 I recommend working with R using the Rstudio IDE: [Download Here](https://www.rstudio.com/)
 
@@ -59,43 +59,44 @@ I recommend working with python using the Jetbrains PyCharm IDE: [Download Here]
 I leave it up to you to get acquainted with each IDE. Below is a b are bones refresher on how to execute code in the languages in this repository.
 
 **Scala**
-'''
+```
 scalac file.scala
 scala file
-'''
+```
 
 **Java**
-'''
+```
 javac file.java
 java file
-'''
+```
 
 **C**
-'''
+```
 gcc file.c
 ./a.out
-'''
+```
 
 **C++**
-'''
+```
 g++ file.cpp
 ./a.out
-'''
+```
 
 **Python**
-'''
+```
 python file.py
-'''
+```
 
 **R**
-'''
+```
 Rscript file.R
-'''
+```
 
 **JavaScript**
-'''
+```
 node file.js
-'''
+```
+I recommend running js code in a browser rather than through the terminal. 
 
 ## License
 
