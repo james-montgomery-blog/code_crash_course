@@ -96,10 +96,8 @@ Rscript file.R
 ```
 node file.js
 ```
-I recommend running js code in a browser rather than through the terminal. 
+I recommend running js code in a browser rather than through the terminal.
 
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-## Acknowledgments
