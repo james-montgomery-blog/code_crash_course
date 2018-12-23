@@ -1,0 +1,12 @@
+# remove files if already committed
+# find . -name .DS_Store -print0 | xargs -0 git rm -f --ignore-unmatch
+
+# Compiled python modules.
+*.pyc
+__pycache__
+
+# ipython notebook checkpoints
+.ipynb_checkpoints
+
+# Mac files
+.DS_Store
