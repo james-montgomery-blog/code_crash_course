@@ -14,6 +14,7 @@ For these languages you will at least need the necessary package for running the
 * [Java](https://www.java.com/en/) & [Maven](https://maven.apache.org/)
 * [R](https://www.r-project.org/)
 * [Python](https://www.anaconda.com/download/#macos) (Anaconda Recommended)
+* [Julia](https://julialang.org/)
 * [Intellij](https://www.jetbrains.com/idea/) (Optional)
 * [PyCharm](https://www.jetbrains.com/pycharm/) (Optional)
 * [Rstudio](https://www.rstudio.com/) (Optional)
@@ -21,7 +22,7 @@ For these languages you will at least need the necessary package for running the
 
 ### Installing
 
-I typically develop on Mac OS or on Linux (Redhat/Ubuntu). These installation guidelines are what I used to get this code working on my Mac (little modification is need to get this working on linux).
+I typically develop on Mac OS or on Linux (Redhat/Ubuntu). These installation guidelines are what I used to get this code working on my Mac (little modification is needed to get this working on linux).
 
 We'll start by installing homebrew, a very useful package manager.
 
@@ -53,6 +54,12 @@ I recommend working with R using the Rstudio IDE: [Download Here](https://www.rs
 You will also need a distribution of python. I recomend using Anaconda: [Download Here](https://www.anaconda.com/download/#macos).
 
 I recommend working with python using the Jetbrains PyCharm IDE: [Download Here](https://www.jetbrains.com/pycharm/). I also recommend getting familiar with virtual environments and jupyter notebooks.
+
+Finally we can install Julia.
+
+```
+brew cask install julia
+```
 
 ### Running Code
 
