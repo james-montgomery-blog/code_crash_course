@@ -4,10 +4,11 @@ This repository is full of very simple sample code that I originally wrote as I 
 
 <!-- TOC -->
 
+Table of Contents
 - [Code Sandbox](#code-sandbox)
 - [Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
-  - [Installing](#installing)
+  - [Installation](#installation)
   - [Languages](#languages)
 - [License](#license)
 
@@ -15,61 +16,43 @@ This repository is full of very simple sample code that I originally wrote as I 
 
 ## Getting Started
 
-These instructions will get you get the code her up and running on your local development environment.
+These instructions will help you get this code up and running on your local development environment.
 
 ### Prerequisites
 
-For these languages you will at least need the necessary package for running the code. For compiled languages you will also need the appropriate compiler. If you don't have these already installed, please see the installation section of the page.
+For these languages you will need the necessary package for running the code. For compiled languages you will also need the appropriate [compiler](https://en.wikipedia.org/wiki/Compiler). Below is a list of the languages, package managers, and IDEs. Installation guides are included with the example code for each [language](#languages), with the exception of Homebrew and the IDEs. Homebrew installation is covered in the [installation](#installation) section. For IDE installation simply follow the IDE links below and follow the installation instructions. I strongly recommend using the IDEs for anyone contemplating seriously using these languages for production grade code.
 
-* [Scala](https://www.scala-lang.org/) & [Sbt](https://www.scala-sbt.org/)
-* [Java](https://www.java.com/en/) & [Maven](https://maven.apache.org/)
-* [R](https://www.r-project.org/)
+**Languages**
+* [C](https://en.wikipedia.org/wiki/C_(programming_language))
+* [C++](https://en.wikipedia.org/wiki/C%2B%2B)
+* [Java](https://www.java.com/en/)
+* [Scala](https://www.scala-lang.org/)
 * [Python](https://www.anaconda.com/download/#macos) (Anaconda Recommended)
 * [Julia](https://julialang.org/)
-* [Intellij](https://www.jetbrains.com/idea/) (Optional)
-* [PyCharm](https://www.jetbrains.com/pycharm/) (Optional)
-* [Rstudio](https://www.rstudio.com/) (Optional)
-* [Homebrew](https://brew.sh/) (Optional)
+* [R](https://www.r-project.org/)
+* [Octave](https://www.gnu.org/software/octave/)
+* [JavaScript](https://www.w3schools.com/js/)
 
-### Installing
+**Package Managers**
+* [Maven](https://maven.apache.org/)
+* [Sbt](https://www.scala-sbt.org/)
+* [Conda](https://docs.conda.io/en/latest/)
+* [Homebrew](https://brew.sh/)
 
-I typically develop on Mac OS or on Linux (Redhat/Ubuntu). These installation guidelines are what I used to get this code working on my Mac (little modification is needed to get this working on linux).
+**Integrated Development Environments (IDEs)**
+* [Intellij](https://www.jetbrains.com/idea/)
+* [PyCharm](https://www.jetbrains.com/pycharm/)
+* [Rstudio](https://www.rstudio.com/)
+* [Juno](https://junolab.org/) / [Atom](https://atom.io/)
 
-We'll start by installing homebrew, a very useful package manager.
+### Installation
+
+I typically develop on Mac OS or on Linux (Redhat/Ubuntu). These installation guidelines are what I used to get this code working on my Mac (little modification is needed to get this working on linux). Language specific installation instructions are included with each language page.
+
+The code below will install Homebrew on Mac. Brew also supplies a linux version.
 
 ```
 mkdir homebrew && curl -L https://github.com/Homebrew/brew/tarball/master | tar xz --strip 1 -C homebrew
-```
-
-Next we'll install scala and java as well as their respective package managers.
-
-```
-brew install scala
-brew install sbt
-
-brew install java
-brew install maven
-```
-
-I recommend working with scala and java using the Jetbrains intellij IDE: [Download Here](https://www.jetbrains.com/idea/).
-
-We can now install R.
-
-```
-brew install r
-brew install Caskroom/cask/xquartz
-```
-
-I recommend working with R using the Rstudio IDE: [Download Here](https://www.rstudio.com/)
-
-You will also need a distribution of python. I recommend using Anaconda: [Download Here](https://www.anaconda.com/download/#macos).
-
-I recommend working with python using the Jetbrains PyCharm IDE: [Download Here](https://www.jetbrains.com/pycharm/). I also recommend getting familiar with virtual environments and jupyter notebooks.
-
-Finally we can install Julia.
-
-```
-brew cask install julia
 ```
 
 ### Languages
@@ -83,39 +66,6 @@ brew cask install julia
 * [R](./R/README.md)
 * [Octave](./Octave/README.md)
 * [JavaScript](./JavaScript/README.md)
-
-### Running Code
-
-I leave it up to you to get acquainted with each IDE. Below is a b are bones refresher on how to execute code in the languages in this repository.
-
-**Scala**
-```
-scalac file.scala
-scala file
-```
-
-**Java**
-```
-javac file.java
-java file
-```
-
-**C++**
-```
-g++ file.cpp
-./a.out
-```
-
-**R**
-```
-Rscript file.R
-```
-
-**JavaScript**
-```
-node file.js
-```
-I recommend running js code in a browser rather than through the terminal.
 
 ## License
 
