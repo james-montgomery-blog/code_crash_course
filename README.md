@@ -25,9 +25,10 @@ For these languages you will need the necessary package for running the code. Fo
 *Languages*
 * [C](https://en.wikipedia.org/wiki/C_(programming_language))
 * [C++](https://en.wikipedia.org/wiki/C%2B%2B)
+* [Fortran](https://en.wikipedia.org/wiki/Fortran)
 * [Java](https://www.java.com/en/)
 * [Scala](https://www.scala-lang.org/)
-* [Python](https://www.anaconda.com/download/#macos) 
+* [Python](https://www.anaconda.com/download/#macos)
 * [Julia](https://julialang.org/)
 * [R](https://www.r-project.org/)
 * [Octave](https://www.gnu.org/software/octave/)
@@ -37,6 +38,7 @@ For these languages you will need the necessary package for running the code. Fo
 * [Maven](https://maven.apache.org/)
 * [Sbt](https://www.scala-sbt.org/)
 * [Conda](https://docs.conda.io/en/latest/)
+* [Pypi](https://pypi.org/)
 * [Homebrew](https://brew.sh/)
 
 *Integrated Development Environments (IDEs)*
@@ -59,6 +61,7 @@ mkdir homebrew && curl -L https://github.com/Homebrew/brew/tarball/master | tar 
 
 * [C](./C/README.md)
 * [C++](./C++/README.md)
+* [Fortran](./Fortran/README.md)
 * [Java](./Java/README.md)
 * [Scala](./Scala/README.md)
 * [Python](./Python/README.md)

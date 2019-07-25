@@ -1,8 +1,16 @@
 # Python
 
+## History
+
+Python is an interpreted, high-level, general-purpose programming language. Created by Guido van Rossum and first released in 1991, Python's design philosophy emphasizes code readability with its notable use of significant whitespace. Its language constructs and object-oriented approach aim to help programmers write clear, logical code for small and large-scale projects.
+
+Python is very easy to pick up and can be very readable/maintainable if written with best practices in mind. Like other modern programming languages, Python also supports several programming paradigm. It supports object oriented and structured programming fully. Also, its language features support various concepts in functional and aspect-oriented programming. At the same time, Python also features a dynamic type system and automatic memory management. The programming paradigms and language features help you to use Python for developing large and complex software applications.
+
+Python has a robust built in library and a vibrant community supporting it by creating new libraries to expand its functionality. Python can also be used as the glue between multiple other programming languages (part of python's original use!).
+
 ## Installation
 
-You can simply install both the Anaconda python distribution and the Conda package manager [Here](https://www.anaconda.com/download/#macos).
+You can simply install the Anaconda python distribution, the Pip package manager, and the Conda package manager together [Here](https://www.anaconda.com/download/#macos).
 
 ## Hello World
 
