@@ -9,7 +9,7 @@ Table of Contents
 - [Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
   - [Installation](#installation)
-  - [Languages](#languages)
+  - [Tutorials](#tutorials)
 - [Environments](#environments)
 - [License](#license)
 
@@ -58,7 +58,7 @@ The code below will install Homebrew on Mac. Brew also supplies a linux version.
 mkdir homebrew && curl -L https://github.com/Homebrew/brew/tarball/master | tar xz --strip 1 -C homebrew
 ```
 
-### Languages
+### Tutorials
 
 * [C](./C/README.md)
 * [C++](./C++/README.md)
