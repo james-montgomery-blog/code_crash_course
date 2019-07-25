@@ -10,6 +10,7 @@ Table of Contents
   - [Prerequisites](#prerequisites)
   - [Installation](#installation)
   - [Languages](#languages)
+- [Environments](#environments)
 - [License](#license)
 
 <!-- /TOC -->
@@ -69,6 +70,14 @@ mkdir homebrew && curl -L https://github.com/Homebrew/brew/tarball/master | tar 
 * [R](./R/README.md)
 * [Octave](./Octave/README.md)
 * [JavaScript](./JavaScript/README.md)
+
+## Environments
+
+It can be hell managing multiple dependancies for a project. For example, you might need two different versions of a package installed for two different projects. I cover two examples of how to manage environments without resorting to using a [virtual machine](https://en.wikipedia.org/wiki/Virtual_machine) or (Lord forbid) manually handling package installations/Paths.
+
+The [Conda environment]() example is meant for use with python.
+
+The [Docker container]() example is generalizable to other languages, but I use python in the example.
 
 ## License
 
