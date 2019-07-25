@@ -5,6 +5,8 @@ version := "0.1"
 scalaVersion := "2.11.4"
 
 // rm -r ~/.ivy2/cache
+// sbt package
+// sbt assembly
 
 libraryDependencies ++= {
   val sparkVer = "2.1.0"

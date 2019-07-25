@@ -1,6 +1,13 @@
 # Code Sandbox
 
-This sandbox is full of very simple sample code that I originally wrote as I was learning various coding languages. This is not meant as a tutorial for learning how to use these various languages, but I hope this simple code is helpful for someone looking for stripped down simple examples of how to get started in these languages.
+This repository is full of very simple sample code that I originally wrote as I was learning various coding languages. This is not meant as a tutorial for learning how to use these languages, but I hope this simple code is helpful for someone looking for stripped down simple examples of how to get started in these languages. I sometimes use this repository as a reference for getting new software engineering (SE) and machine learning engineering (MLE) teammates up to speed on whatever language a particular project is built in.
+
+<!-- TOC -->
+
+- [Code Sandbox](#code-sandbox)
+- [Getting Started](#getting-started)
+
+<!-- /TOC -->
 
 ## Getting Started
 
