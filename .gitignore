@@ -12,7 +12,8 @@ __pycache__
 .DS_Store
 
 # scala/java files
+*.xml
 .xml
 
 # C and C++ files
-.out
+*.out
