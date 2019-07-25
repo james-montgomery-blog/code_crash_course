@@ -6,6 +6,10 @@ This repository is full of very simple sample code that I originally wrote as I 
 
 - [Code Sandbox](#code-sandbox)
 - [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installing](#installing)
+  - [Languages](#languages)
+- [License](#license)
 
 <!-- /TOC -->
 
@@ -58,7 +62,7 @@ brew install Caskroom/cask/xquartz
 
 I recommend working with R using the Rstudio IDE: [Download Here](https://www.rstudio.com/)
 
-You will also need a distribution of python. I recomend using Anaconda: [Download Here](https://www.anaconda.com/download/#macos).
+You will also need a distribution of python. I recommend using Anaconda: [Download Here](https://www.anaconda.com/download/#macos).
 
 I recommend working with python using the Jetbrains PyCharm IDE: [Download Here](https://www.jetbrains.com/pycharm/). I also recommend getting familiar with virtual environments and jupyter notebooks.
 
@@ -67,6 +71,18 @@ Finally we can install Julia.
 ```
 brew cask install julia
 ```
+
+### Languages
+
+* [C](./C/README.md)
+* [C++](./C++/README.md)
+* [Java](./Java/README.md)
+* [Scala](./Scala/README.md)
+* [Python](./Python/README.md)
+* [Julia](./Julia/README.md)
+* [R](./R/README.md)
+* [Octave](./Octave/README.md)
+* [JavaScript](./JavaScript/README.md)
 
 ### Running Code
 
@@ -84,21 +100,10 @@ javac file.java
 java file
 ```
 
-**C**
-```
-gcc file.c
-./a.out
-```
-
 **C++**
 ```
 g++ file.cpp
 ./a.out
-```
-
-**Python**
-```
-python file.py
 ```
 
 **R**

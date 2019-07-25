@@ -13,3 +13,6 @@ __pycache__
 
 # scala/java files
 .xml
+
+# C and C++ files
+.out
