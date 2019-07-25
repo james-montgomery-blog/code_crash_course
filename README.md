@@ -27,7 +27,7 @@ For these languages you will need the necessary package for running the code. Fo
 * [C++](https://en.wikipedia.org/wiki/C%2B%2B)
 * [Java](https://www.java.com/en/)
 * [Scala](https://www.scala-lang.org/)
-* [Python](https://www.anaconda.com/download/#macos) (Anaconda Recommended)
+* [Python](https://www.anaconda.com/download/#macos) 
 * [Julia](https://julialang.org/)
 * [R](https://www.r-project.org/)
 * [Octave](https://www.gnu.org/software/octave/)
