@@ -22,7 +22,7 @@ These instructions will help you get this code up and running on your local deve
 
 For these languages you will need the necessary package for running the code. For compiled languages you will also need the appropriate [compiler](https://en.wikipedia.org/wiki/Compiler). Below is a list of the languages, package managers, and IDEs. Installation guides are included with the example code for each [language](#languages), with the exception of Homebrew and the IDEs. Homebrew installation is covered in the [installation](#installation) section. For IDE installation simply follow the IDE links below and follow the installation instructions. I strongly recommend using the IDEs for anyone contemplating seriously using these languages for production grade code.
 
-**Languages**
+*Languages*
 * [C](https://en.wikipedia.org/wiki/C_(programming_language))
 * [C++](https://en.wikipedia.org/wiki/C%2B%2B)
 * [Java](https://www.java.com/en/)
@@ -33,13 +33,13 @@ For these languages you will need the necessary package for running the code. Fo
 * [Octave](https://www.gnu.org/software/octave/)
 * [JavaScript](https://www.w3schools.com/js/)
 
-**Package Managers**
+*Package Managers*
 * [Maven](https://maven.apache.org/)
 * [Sbt](https://www.scala-sbt.org/)
 * [Conda](https://docs.conda.io/en/latest/)
 * [Homebrew](https://brew.sh/)
 
-**Integrated Development Environments (IDEs)**
+*Integrated Development Environments (IDEs)*
 * [Intellij](https://www.jetbrains.com/idea/)
 * [PyCharm](https://www.jetbrains.com/pycharm/)
 * [Rstudio](https://www.rstudio.com/)
