@@ -14,10 +14,9 @@ __pycache__
 # Scala/Java files
 *.class
 *.jar
+target/*
 
 # Intellij
-*.xml
-.xml
 .idea
 
 # Fortran, C, and C++ files

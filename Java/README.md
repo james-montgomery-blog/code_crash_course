@@ -28,6 +28,12 @@ java -cp HelloWorld.jar HelloWorld
 
 # Intellij Instructions
 
-```
+To create full-fledged java projects you probably want to use an IDE like intellij to help manage the project. It's pretty easy to create or import a maven project into intellij. You can then run and develop code from there. When you are done, it's easy to then package that project in a fat jar to move into a production environment.
 
+## HelloWorld
+
+```
+cd Intellij/HelloWorld
+mvn package
+java -cp target/HelloWorld-1.0-SNAPSHOT.jar com.HelloWorld
 ```
