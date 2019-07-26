@@ -16,6 +16,18 @@ brew install maven
 ## HelloWorld
 
 ```
-javac file.java
-java file
+javac -d . ./HelloWorld/HelloWorld.java
+java HelloWorld
+```
+
+```
+javac -d . ./HelloWorld/HelloWorld.java
+jar -cf HelloWorld.jar HelloWorld.class
+java -cp HelloWorld.jar HelloWorld
+```
+
+# Intellij Instructions
+
+```
+
 ```

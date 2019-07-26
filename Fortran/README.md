@@ -16,7 +16,20 @@ brew install gcc
 
 ## HelloWorld
 
+We'll use the `.f90` file extension instead of `.f95` so that our compiled files share the `a.out` naming convention of the `C` languages.
+
 ```
-gfortran -o hello ./HelloWorld/HelloWorld.f95
-./hello
+gfortran -o hello ./HelloWorld/HelloWorld.f90
+./a.out
+```
+
+<!--
+* https://www.tutorialspoint.com/fortran/fortran_arrays.htm
+-->
+
+# Imports
+
+```
+gfortran ./Import/main.f90 ./Import/utils.f90
+./a.out
 ```

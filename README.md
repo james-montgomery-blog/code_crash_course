@@ -71,6 +71,8 @@ mkdir homebrew && curl -L https://github.com/Homebrew/brew/tarball/master | tar 
 * [Octave](./Octave/README.md)
 * [JavaScript](./JavaScript/README.md)
 
+*Note:* It's worth noting that many of these languages can be called from or integrated into Python. Python is a great language for nicely stitching together various languages. Just look at packages like numerical python (numpy)!
+
 ## Environments
 
 It can be hell managing multiple dependancies for a project. For example, you might need two different versions of a package installed for two different projects. I cover two examples of how to manage environments without resorting to using a [virtual machine](https://en.wikipedia.org/wiki/Virtual_machine) or (Lord forbid) manually handling package installations/Paths.

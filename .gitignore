@@ -11,9 +11,15 @@ __pycache__
 # Mac files
 .DS_Store
 
-# scala/java files
+# Scala/Java files
+*.class
+*.jar
+
+# Intellij
 *.xml
 .xml
+.idea
 
-# C and C++ files
+# Fortran, C, and C++ files
 *.out
+*.mod
