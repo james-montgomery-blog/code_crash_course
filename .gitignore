@@ -14,7 +14,7 @@ __pycache__
 # Scala/Java files
 *.class
 *.jar
-target/*
+target
 
 # Intellij
 .idea
