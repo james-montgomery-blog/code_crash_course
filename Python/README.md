@@ -12,8 +12,22 @@ Python has a robust built in library and a vibrant community supporting it by cr
 
 You can simply install the Anaconda python distribution, the Pip package manager, and the Conda package manager together [Here](https://www.anaconda.com/download/#macos).
 
+I recommend using conda virtual environments to manage dependancies for python projects. You can find a quick start guid [Here](../Environments/Conda/README.md).
+
 ## Hello World
 
 ```
 python /HelloWorld/HelloWorld.py
+```
+
+## Import
+
+The example code is uses static typing which is specific to python 3.
+
+```
+pip install -r ./Import/requirements.txt
+```
+
+```
+python ./Import/main.py
 ```

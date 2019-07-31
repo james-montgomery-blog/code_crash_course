@@ -12,8 +12,20 @@ If you want the performance of C and the ease of use of Python, maybe try Julia!
 brew cask install julia
 ```
 
+I recommend using conda virtual environments to manage dependancies for julia projects. You can find a quick start guid [Here](../Environments/Conda/README.md).
+
 ## HelloWorld
 
 ```
 julia ./HelloWorld/HelloWorld.jl
+```
+
+## Import
+
+```
+julia ./Import/requirements.jl
+```
+
+```
+julia ./Import/main.jl
 ```

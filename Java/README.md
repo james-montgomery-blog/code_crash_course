@@ -28,7 +28,9 @@ java -cp HelloWorld.jar HelloWorld
 
 # Intellij Instructions
 
-To create full-fledged java projects you probably want to use an IDE like intellij to help manage the project. It's pretty easy to create or import a maven project into intellij. You can then run and develop code from there. When you are done, it's easy to then package that project in a fat jar to move into a production environment.
+To create full-fledged java projects you probably want to use an IDE like intellij to help manage the project. It's pretty easy to create or import a maven project into intellij. You can then run and develop code from there. When you are done, it's easy to then package that project in a jar (or fat jar) to move into a production environment. I like fat jars because all of the dependancies are included with the jar.
+
+*Note:* Java dependancies defined in the `pom.xml` file.
 
 ## HelloWorld
 
@@ -36,4 +38,12 @@ To create full-fledged java projects you probably want to use an IDE like intell
 cd Intellij/HelloWorld
 mvn package
 java -cp target/HelloWorld-1.0-SNAPSHOT.jar com.HelloWorld
+```
+
+## Import
+
+```
+cd Intellij/Import
+mvn clean compile assembly:single
+java -cp target/Import-1.0-SNAPSHOT-jar-with-dependencies.jar com.Main
 ```

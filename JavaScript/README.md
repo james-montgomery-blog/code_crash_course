@@ -25,3 +25,19 @@ Running files: [LINK](https://stackoverflow.com/questions/27241815/how-do-i-exec
 ```
 node ./HelloWorld/HelloWorld.js
 ```
+
+## Import
+
+```
+node ./Import/main.js
+```
+
+<!--
+https://medium.com/the-node-js-collection/modern-javascript-explained-for-dinosaurs-f695e9747b70
+-->
+
+## Tests
+
+```
+node ./Testing/test_stats.js
+```

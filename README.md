@@ -84,3 +84,9 @@ The [Docker container](./Environments/Docker/README.md) example is generalizable
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+
+## Other Resources
+
+* [Rosetta Code](https://rosettacode.org/wiki/Rosetta_Code)
+* [Duo Coder](https://jasonpark.me/DuoCoder/public/)
+* [Wikibooks Algorithms](https://en.wikibooks.org/wiki/Algorithm_Implementation)

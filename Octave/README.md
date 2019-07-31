@@ -17,3 +17,13 @@ brew install octave
 ```
 octave ./HelloWorld/HelloWorld.m
 ```
+
+## Imports
+
+```
+octave ./Import/main.m
+```
+
+<!-- installing packages
+https://octave.org/doc/v4.2.2/Installing-and-Removing-Packages.html
+-->

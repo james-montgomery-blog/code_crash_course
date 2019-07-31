@@ -28,7 +28,9 @@ scala -cp HelloWorld.jar HelloWorld
 
 # Intellij Instructions
 
-To create full-fledged scala projects you probably want to use an IDE like intellij to help manage the project. It's pretty easy to create or import a sbt project into intellij. You can then run and develop code from there. When you are done, it's easy to then package that project in a fat jar to move into a production environment.
+To create full-fledged scala projects you probably want to use an IDE like intellij to help manage the project. It's pretty easy to create or import a sbt project into intellij. You can then run and develop code from there. When you are done, it's easy to then package that project in a jar (or fat jar) to move into a production environment. I like fat jars because all of the dependancies are included with the jar.
+
+*Note:* Scala dependancies defined in the `build.sbt` file.
 
 ## HelloWorld
 
@@ -41,7 +43,17 @@ scala -cp target/scala-2.13/helloworld_2.13-0.1.jar com.HelloWorld
 You can also create a fat jar!
 
 ```
+cd Intellij/HelloWorld
 echo -e 'addSbtPlugin("com.eed3si9n" % "sbt-assembly" % "0.14.6")' > project/plugins.sbt
 sbt assembly
 scala -cp target/scala-2.13/HelloWorld-assembly-0.1.jar com.HelloWorld
+```
+
+## Import
+
+```
+cd Intellij/Import
+echo -e 'addSbtPlugin("com.eed3si9n" % "sbt-assembly" % "0.14.6")' > project/plugins.sbt
+sbt clean assembly
+sbt "runMain com.Main"
 ```

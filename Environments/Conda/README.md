@@ -48,7 +48,7 @@ As long as the environment is active you can use it just as you would the defaul
 conda deactivate
 ~~~
 
-Before deactivating you might want to save your dependancies for reference. Sinply save then to a requirements file.
+Before deactivating you might want to save your dependancies for reference. Simply save then to a requirements file.
 
 ~~~Bash
 pip freeze > requirements.txt
@@ -68,3 +68,29 @@ You can also remove the jupyter kernel associated with it:
 jupyter kernelspec list
 jupyter kernelspec uninstall test_env
 ~~~
+
+If you ever want to see a list of your available conda environments:
+
+```
+conda env list
+```
+
+# Conda for Julia
+
+You can also create conda virtual environments for Julia!
+
+```
+conda create -n julia_env -c conda-forge julia
+```
+
+Julia does not have a nice package manager like pip (as of the writing of this document). You can opt to use `.toml` files to manage project dependancies, but I find these files tedious. Instead, I prefer to use `requirement.jl` files. These must be written manually, but work well in practice when developing proof of concept work.
+
+```
+julia requirements.jl
+```
+
+# Conda for R
+
+```
+conda create -n r_env r-essentials r-base
+```
