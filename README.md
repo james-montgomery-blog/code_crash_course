@@ -77,7 +77,7 @@ mkdir homebrew && curl -L https://github.com/Homebrew/brew/tarball/master | tar 
 
 It can be hell managing multiple dependancies for a project. For example, you might need two different versions of a package installed for two different projects. I cover two examples of how to manage environments without resorting to using a [virtual machine](https://en.wikipedia.org/wiki/Virtual_machine) or (Lord forbid) manually handling package installations/Paths.
 
-The [Conda environment](./Environments/Conda/README.md) example is meant for use with python.
+The [Conda environment](./Environments/Conda/README.md) example is meant for use with python, julia, and/or R.
 
 The [Docker container](./Environments/Docker/README.md) example is generalizable to other languages, but I use python in the example.
 

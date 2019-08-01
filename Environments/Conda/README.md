@@ -94,3 +94,7 @@ julia requirements.jl
 ```
 conda create -n r_env r-essentials r-base
 ```
+
+```
+julia requirements.R
+```
