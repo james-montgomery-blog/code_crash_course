@@ -22,3 +22,4 @@ target/
 # Fortran, C, and C++ files
 *.out
 *.mod
+*.o

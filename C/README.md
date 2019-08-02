@@ -22,3 +22,16 @@ brew install gcc
 gcc ./HelloWorld/HelloWorld.c
 ./a.out
 ```
+
+## Import
+
+```
+gcc ./Import/main.c
+./a.out
+```
+
+## OLS
+
+```
+gfortran -c -O3 ./OLS/BLAS-3.8.0/*.f
+```
