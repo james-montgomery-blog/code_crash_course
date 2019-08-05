@@ -31,3 +31,13 @@ pip install -r ./Import/requirements.txt
 ```
 python ./Import/main.py
 ```
+
+## OLS
+
+```
+pip install -r ./OLS/requirements.txt
+```
+
+```
+python ./OLS/main.py
+```
