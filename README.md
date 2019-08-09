@@ -60,6 +60,13 @@ mkdir homebrew && curl -L https://github.com/Homebrew/brew/tarball/master | tar 
 
 ### Tutorials
 
+<!--
+Code Essentials
+* Importing Functionality
+* Unit Testing
+* Formating / Typing Testing
+-->
+
 * [C](./C/README.md)
 * [C++](./C++/README.md)
 * [Fortran](./Fortran/README.md)
