@@ -38,27 +38,34 @@ https://pheiter.wordpress.com/2012/09/04/howto-installing-lapack-and-blas-on-mac
 https://kevincodeidea.wordpress.com/2015/03/12/install-cblas-on-yosemite/
 -->
 
-Install [BLAS](http://www.netlib.org/blas/).
+We will need a linear algebra library to help with our ordinary least squares regression. We'll use Blas and CBlas.
+
+**Install [BLAS](http://www.netlib.org/blas/):**
 
 ```
 tar -xvzf ./OLS/blas-3.8.0.tgz -C ./OLS
-tar -xvzf ./OLS/cblas.tgz -C ./OLS
 cd ./OLS/BLAS-3.8.0
 make
 mv blas_LINUX.a libblas.a
 cp libblas.a /usr/local/lib/
+```
+
+and clean up...
+
+```
 cd ../..
 rm -r ./OLS/BLAS-3.8.0
 ```
 
-Install CBLAS.
+**Install CBLAS:**
 
 ```
+tar -xvzf ./OLS/cblas.tgz -C ./OLS
 cd ./OLS/CBLAS
 nano Makefile.in
 ```
 
-Update the following lines in:
+Update the following lines in `Makefile.in`:
 
 ```
 BLLIB = /usr/local/lib/libblas.a
@@ -69,31 +76,42 @@ CBLIB = ../lib/cblas_$(PLAT).a
 make
 cp include/* /usr/local/include/
 cp lib/cblas_LINUX.a /usr/local/lib/
-cd ../..
-rm -r ./OLS/CBLAS
 ```
 
 <!--
+files moved to /usr/local/lib/
+
 cblas.h		
 cblas_f77.h
 -->
 
-Now we have BLAS and CBLAS installed!
+<!--
+test cblas
+
+gcc -lcblas -I/usr/local/include ./OLS/CBLAS/examples/cblas_example1.c
+-->
+
+and clean up...
 
 ```
-gcc ./OLS/main.c
+cd ../..
+rm -r ./OLS/CBLAS
+```
+
+**Run the Code!**
+
+Now that we have BLAS and CBLAS installed, we can run our code.
+
+```
+gcc -lcblas -I/usr/local/include ./OLS/main.c
 ./a.out
 ```
 <!--
-
 https://stackoverflow.com/questions/5083465/fast-efficient-least-squares-fit-algorithm-in-c
-
-
 -->
 
 
 <!--
-
 https://www.gnu.org/software/gsl/
 
 https://stackoverflow.com/questions/29472362/how-to-perform-vector-matrix-multiplication-with-blas
