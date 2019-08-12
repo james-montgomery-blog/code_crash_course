@@ -12,7 +12,7 @@ void fetch_column(int rows, int cols, double data[rows][cols], int target_column
 int main() {
 
    int success_flag = 1;
-   char * data_path = "../Test_Data/linear.csv";
+   char * data_path = "../../../Test_Data/linear.csv";
 
    int cols = column_count(data_path);
    int rows = row_count(data_path) -1;
