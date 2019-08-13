@@ -1,30 +1,14 @@
 CC=gcc
-CFLAGS=-Wall -Wextra -Wpedantic -g
-BIN=matrix
-BUILD=build
-SRC=src
-SOURCES=$(wildcard $(SRC)/*.c)
-OBJECTS = $(patsubst $(SRC)/%.c,$(BUILD)/%.o,$(SOURCES))
+CFLAGS=-Wall -Wextra -Wpedantic -g # compile commdans -Werrors
+DEPS = ./src/utils.h
+OBJ = ./src/main.o
+LIBS =-lcblas -I/usr/local/include
+.PHONY: all
 
-dir_guard = @mkdir -p $(@D)
+all: main
 
-all : $(BUILD)/$(BIN)
+%.o: %.c $(DEPS)
+	$(CC) -c -o $(LIBS) $@ $< $(CFLAGS)
 
-run: all
-	$(info running...)
-	./${BUILD}/${BIN}
-
-debug: all
-
-$(BUILD)/$(BIN): $(OBJECTS)
-	$(dir_guard)
-	$(CC) $^ -o $@
-
-$(BUILD)/%.o: $(SRC)/%.c
-	$(dir_guard)
-	$(CC) -c $(CFLAGS) $< -o $(BUILD)/$(@F)
-
-.PHONY: clean all debug run
-
-clean:
-	rm -rf $(BUILD)
+main: $(OBJ)
+	$(CC) -o $@ $^ $(CFLAGS) $(LIBS)

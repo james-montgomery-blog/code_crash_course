@@ -59,6 +59,12 @@ rm -r ./OLS/BLAS-3.8.0
 
 **Install CBLAS:**
 
+<!--
+BLAS docs
+http://www.netlib.org/blas/dgemm.f
+https://software.intel.com/en-us/mkl-developer-reference-c-cblas-gemm
+-->
+
 ```
 tar -xvzf ./OLS/cblas.tgz -C ./OLS
 cd ./OLS/CBLAS
@@ -103,7 +109,12 @@ rm -r ./OLS/CBLAS
 Now that we have BLAS and CBLAS installed, we can run our code.
 
 ```
-gcc -lcblas -I/usr/local/include ./OLS/main.c
+make --directory ./OLS
+
+
+
+
+gcc -lcblas -I/usr/local/include ./OLS/src/main.c
 ./a.out
 ```
 <!--
