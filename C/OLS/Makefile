@@ -15,10 +15,11 @@ run: all
 	./${BUILD}/${BIN}
 
 debug: all
+	gdb $(BUILD)/$(BIN)
 
 $(BUILD)/$(BIN): $(OBJECTS)
 	$(dir_guard)
-	$(CC) $^ -o $@
+	$(CC) $^ -o $@ -lblas
 
 $(BUILD)/%.o: $(SRC)/%.c
 	$(dir_guard)

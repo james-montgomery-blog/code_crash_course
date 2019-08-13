@@ -31,7 +31,7 @@ int column_count(char *filepath) {
   // }
 
   fclose(fp);
-  return column_count;
+  return column_count+1;
 }
 
 int row_count(char *filepath) {
