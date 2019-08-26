@@ -109,33 +109,11 @@ rm -r ./OLS/CBLAS
 Now that we have BLAS and CBLAS installed, we can run our code.
 
 ```
-make --directory ./OLS
+make --directory ./OLS && mv ./OLS/main ./main
+./main
+```
 
-
-
-
+```
 gcc -lcblas -I/usr/local/include ./OLS/src/main.c
 ./a.out
 ```
-<!--
-https://stackoverflow.com/questions/5083465/fast-efficient-least-squares-fit-algorithm-in-c
--->
-
-
-<!--
-https://www.gnu.org/software/gsl/
-
-https://stackoverflow.com/questions/29472362/how-to-perform-vector-matrix-multiplication-with-blas
-
-https://www.christophlassner.de/using-blas-from-c-with-row-major-data.html
-
-https://software.intel.com/en-us/mkl-developer-reference-c-cblas-gemm
-
-https://www.ibm.com/support/knowledgecenter/en/SSLTBW_2.3.0/com.ibm.zos.v2r3.cbcpx01/atlasexample1.htm
-
-https://michaellindon.github.io/lindonslog/programming/atlas-blas-lapack-linear-algebra-libraries/index.html
-
-http://matrixprogramming.rudnyi.ru/files/code/MatrixMultiply/code/4blas/usedgemm.cc
-
-https://stackoverflow.com/questions/5705506/how-does-blas-sgemm-dgemm-work
--->

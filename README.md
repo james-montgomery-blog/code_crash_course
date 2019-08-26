@@ -97,3 +97,7 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 * [Rosetta Code](https://rosettacode.org/wiki/Rosetta_Code)
 * [Duo Coder](https://jasonpark.me/DuoCoder/public/)
 * [Wikibooks Algorithms](https://en.wikibooks.org/wiki/Algorithm_Implementation)
+
+## Acknowledgements
+
+A big thank you to David Harrington for his help writing the examples in C. I am a statistician at heart and the help of my software engineering friends went far to making this repository possible.

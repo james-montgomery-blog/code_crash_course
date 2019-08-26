@@ -7,6 +7,7 @@ int column_count(char *filepath) {
   FILE* fp = fopen(filepath, "r");
   int i;
   int column_count = 0;
+  //int line_count = 1;
 
   if (fp == NULL) {
       printf("Could not open file %s", filepath);
@@ -20,8 +21,17 @@ int column_count(char *filepath) {
       }
   }
 
+  // while((i=fgetc(fp))!=EOF) {
+  //     if (i == ',') {
+  //         ++column_count;
+  //     } else if (i == '\n') {
+  //         line_count++;
+  //         column_count = 0;
+  //     }
+  // }
+
   fclose(fp);
-  return column_count;
+  return column_count+1;
 }
 
 int row_count(char *filepath) {
@@ -81,7 +91,7 @@ int read_data(char *filepath, int rows, int cols, double data[rows][cols]) {
 
     fclose(fp);
 
-    return EXIT_SUCCESS;
+    return 0;
 }
 
 // How to use pointers
@@ -90,8 +100,14 @@ int read_data(char *filepath, int rows, int cols, double data[rows][cols]) {
 // How to use structs as classes
 // https://stackoverflow.com/questions/2750270/c-c-struct-vs-class
 
-void fetch_column(int rows, int cols, double data[rows][cols], int target_column, double arr[rows][1]) {
-   for(int i = 0; i < rows; i++) {
-      arr[i][0] = data[target_column][i];
-   }
+void fetch_column(double * out, double * in, int col, int rows, int cols){
+    for(int i=0; i<rows; i++){
+        out[i]= in[cols*i+col];
+    }
+}
+
+void print_matrix(double * data, int n){
+    for(int i = 0; i < n; i++){
+        printf("%d: %f\n", i, data[i]);
+    }
 }

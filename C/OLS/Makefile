@@ -8,7 +8,7 @@ LIBS =-lcblas -I/usr/local/include
 all: main
 
 %.o: %.c $(DEPS)
-	$(CC) -c -o $(LIBS) $@ $< $(CFLAGS)
+	$(CC) -c -o $@ $< $(CFLAGS) 
 
 main: $(OBJ)
 	$(CC) -o $@ $^ $(CFLAGS) $(LIBS)
