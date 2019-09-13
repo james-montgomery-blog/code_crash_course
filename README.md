@@ -35,6 +35,12 @@ For these languages you will need the necessary package for running the code. Fo
 * [Octave](https://www.gnu.org/software/octave/)
 * [JavaScript](https://www.w3schools.com/js/)
 
+<!--
+https://doc.rust-lang.org/book/ch01-02-hello-world.html
+https://elixir-lang.org/crash-course.html
+https://gobyexample.com/hello-world
+-->
+
 *Package Managers*
 * [Maven](https://maven.apache.org/)
 * [Sbt](https://www.scala-sbt.org/)
