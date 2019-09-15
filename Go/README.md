@@ -2,6 +2,8 @@
 
 ## History
 
+Golang (Go), like Rust, is an attempt to get the performance of C/C++ with modern features like memory safety. Go is a great language when efficient concurrency is a project requirement but the developers want to keep the code base simple and elegant. Go first appeared in 2009.
+
 ## Installation
 
 ```
