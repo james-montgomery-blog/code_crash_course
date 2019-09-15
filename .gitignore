@@ -1,15 +1,15 @@
 # remove files if already committed
 # find . -name .DS_Store -print0 | xargs -0 git rm -f --ignore-unmatch
 
-# Compiled python modules.
+# Mac files
+.DS_Store
+
+# Python files
 *.pyc
 __pycache__
 
 # ipython notebook checkpoints
 .ipynb_checkpoints
-
-# Mac files
-.DS_Store
 
 # Scala/Java files
 *.class
@@ -27,3 +27,9 @@ CBLAS/
 BLAS-3.8.0/
 **build**
 main
+
+# Rust files
+Rust/HelloWorld/HelloWorld
+
+# Go files
+Go/HelloWorld/HelloWorld
