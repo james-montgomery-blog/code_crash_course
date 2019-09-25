@@ -107,3 +107,9 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 ## Acknowledgements
 
 A big thank you to David Harrington for his help writing the examples in C. I am a statistician at heart and the help of my software engineering friends went far to making this repository possible.
+
+
+<!--
+Future Examples
+https://darrenjw.wordpress.com/2011/07/16/gibbs-sampler-in-various-languages-revisited/
+-->
