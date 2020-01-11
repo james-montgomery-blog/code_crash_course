@@ -34,10 +34,41 @@ python ./Import/main.py
 
 ## OLS
 
+Install requirements:
+
 ```
 pip install -r ./OLS/requirements.txt
 ```
 
+Run the program:
+
 ```
-python ./OLS/main.py
+python ./OLS/ols_example
+```
+
+Install test requirements:
+
+```
+pip install -r ./OLS/requirements_test.txt
+```
+
+Run tests:
+
+```
+cd OLS
+nosetests --with-coverage --cover-package=ols_example
+```
+
+Run linter:
+
+```
+cd OLS
+pylint ols_example --disable=invalid-name
+```
+
+Install library:
+
+```
+cd OLS
+pip install .
 ```
